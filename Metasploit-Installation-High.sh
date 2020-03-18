@@ -20,7 +20,7 @@ echo  -e "$green Coded By$white God-Of-Death(VS), $white"
 echo -e "$cyan Subscribe Our YoutubeChannel :$red GuessMe $cyan"
 echo -e "$pink NOTE :$red !!! Need Internet Connection To Install Metasploit(7.0 AND ABOVE ANDROID VERSIONS) !!! $pink"
 echo -e "$cyan Please Wait... Boss!!!,$red We are Preparing For Installing The$green Metasploit(7.0 AND ABOVE ANDROID VERSIONS)$cyan"
-echo -e "$green METASPLOIT INSTALLTION FOR$pink 7.0 AND ABOVE ANDROID VERSIONS $green"
+echo -e "$green METASPLOIT INSTALLTION FOR$pink 7.0 AND ABOVE ANDROID VERSIONS $white"
 sleep 7.0
 clear
 apt-get update -y
@@ -29,7 +29,7 @@ pkg install wget -y
 pkg install openssh -y
 pkg install python -y
 pkg install python2 -y
-pip install lolocat
+pip install lolcat
 pkg install git -y
 pip install --upgrade pip
 pkg install nano -y
@@ -42,8 +42,8 @@ pkg install ruby -y
 pkg install unstable-repo -y
 pkg install metasploit -y
 clear
-echo -e "$red >>>>>>>>>>>>>>>>$cyan METASPLOIT INSTALLATION IS COMPLETED$cyan <<<<<<<<<<<<<<<<<<$red"
-echo -e "$green WAIT A MINUTES...... $red DON'T CANCELL THE PROCESS $red"
+echo -e "$red >>>>>>>>>>>$cyan METASPLOIT INSTALLATION IS COMPLETED$cyan <<<<<<<<<<<<<<$red"
+echo -e "$green ^_^ ^_^ WAIT A MINUTES...... $red !!!DON'T CANCELL THE PROCESS!!! $red"
 sleep 2.0
 clear
 cd $HOME
@@ -55,21 +55,29 @@ cd $HOME
 cd metasploit-framework
 wget https://github.com/termux/termux-packages/files/2912002/fix-ruby-bigdecimal.sh.txt
 bash fix-ruby-bigdecimal.sh.txt
-echo -e "$green Starting$cyan Metasploit-Framework."
 clear
-echo -e "$green Starting$cyan Metasploit-Framework.."
+echo -e "$green Starting$cyan Metasploit-Framework."|lolcat
+sleep 0.2
 clear
-echo -e "$green Starting$cyan Metasploit-Framework..."
+echo -e "$green Starting$cyan Metasploit-Framework.."|lolcat
+sleep 0.2
 clear
-echo -e "$green Starting$cyan Metasploit-Framework...."
+echo -e "$green Starting$cyan Metasploit-Framework..."|lolcat
+sleep 0.2
 clear
-echo -e "$green Starting$cyan Metasploit-Framework....."
+echo -e "$green Starting$cyan Metasploit-Framework...."|lolcat
+sleep 0.2
 clear
-echo -e "$green Starting$cyan Metasploit-Framework......"
+echo -e "$green Starting$cyan Metasploit-Framework....."|lolcat
+sleep 0.2
 clear
-echo -e "$green Starting$cyan Metasploit-Framework......."
+echo -e "$green Starting$cyan Metasploit-Framework......"|lolcat
+sleep 0.2
 clear
-echo -e "$green Starting$cyan Metasploit-Framework........"
+echo -e "$green Starting$cyan Metasploit-Framework......."|lolcat
+sleep 0.2
+clear
+echo -e "$green Starting$cyan Metasploit-Framework........"|lolcat
 sleep 5.0
 pg_ctl -D $PREFIX/var/lib/postgresql start
 sleep 5.0
