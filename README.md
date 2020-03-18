@@ -5,7 +5,7 @@ CHANNEL LINK : https://www.youtube.com/channel/UCM5hcvX8edTqAcWartWB70Q?view_as=
 # METASPLOIT INSATLLATION WITHOUT ERROR:
 # FOLLOW THE INSTRUCTIONS:
 $ git clone https://github.com/vigneshsandi/GuessMe
-cd GuessMe
+$ cd GuessMe
 # IF YOUR ANDROID VERSION IS UPTO 6.9 ONLY :
 $ bash Metasploit-Installation-Low.sh
 # IF YOUR ANDROID VERSION IS ABOVE 7.0 :
