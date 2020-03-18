@@ -44,8 +44,8 @@ pkg install metasploit -y
 apt --fix-broken install -y
 dpkg --configure -a
 clear
-echo -e "$red >>>>>>>>>>>>>>>>$cyan METASPLOIT INSTALLATION IS COMPLETED$cyan <<<<<<<<<<<<<<<<<<$red"
-echo -e "$green WAIT A MINUTES...... $red DON'T CANCELL THE PROCESS $red"
+echo -e "$red >>>>>>>>>>>$cyan METASPLOIT INSTALLATION IS COMPLETED$cyan <<<<<<<<<<<<<<$red"
+echo -e "$green ^_^ ^_^ WAIT A MINUTES......^_^ ^_^ $red !!!DON'T CANCELL THE PROCESS!!!$red"
 sleep 2.0
 clear
 cd $HOME
@@ -54,21 +54,28 @@ cd usr
 cd opt
 cd metasploit-framework
 clear
-echo -e "$green Starting$cyan Metasploit-Framework."
+echo -e "$green Starting$cyan Metasploit-Framework."|lolcat
+sleep 0.2
 clear
-echo -e "$green Starting$cyan Metasploit-Framework.."
+echo -e "$green Starting$cyan Metasploit-Framework.."|lolcat
+sleep 0.2
 clear
-echo -e "$green Starting$cyan Metasploit-Framework..."
+echo -e "$green Starting$cyan Metasploit-Framework..."|lolcat
+sleep 0.2
 clear
-echo -e "$green Starting$cyan Metasploit-Framework...."
+echo -e "$green Starting$cyan Metasploit-Framework...."|lolcat
+sleep 0.2
 clear
-echo -e "$green Starting$cyan Metasploit-Framework....."
+echo -e "$green Starting$cyan Metasploit-Framework....."|lolcat
+sleep 0.2
 clear
-echo -e "$green Starting$cyan Metasploit-Framework......"
+echo -e "$green Starting$cyan Metasploit-Framework......"|lolcat
+sleep 0.2
 clear
-echo -e "$green Starting$cyan Metasploit-Framework......."
+echo -e "$green Starting$cyan Metasploit-Framework......."|lolcat
+sleep 0.2
 clear
-echo -e "$green Starting$cyan Metasploit-Framework........"
+echo -e "$green Starting$cyan Metasploit-Framework........"|lolcat
 sleep 5.0
 pg_ctl -D $PREFIX/var/lib/postgresql start
 sleep 5.0
