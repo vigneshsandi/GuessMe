@@ -46,16 +46,6 @@ echo -e "$red >>>>>>>>>>>$cyan METASPLOIT INSTALLATION IS COMPLETED$cyan <<<<<<<
 echo -e "$green ^_^ ^_^ WAIT A MINUTES...... $red !!!DON'T CANCELL THE PROCESS!!! $red"
 sleep 2.0
 clear
-cd $HOME
-cd ..
-cd usr
-cd opt
-mv metasploit-framework $HOME
-cd $HOME
-cd metasploit-framework
-wget https://github.com/termux/termux-packages/files/2912002/fix-ruby-bigdecimal.sh.txt
-bash fix-ruby-bigdecimal.sh.txt
-clear
 echo -e "$green Starting$cyan Metasploit-Framework."|lolcat
 sleep 0.2
 clear
